@@ -1,0 +1,92 @@
+<ion-header>
+    <ion-toolbar color="primary">
+        <ion-title>
+            Court Counter
+        </ion-title>
+
+    </ion-toolbar>
+</ion-header>
+
+<ion-content padding>
+
+
+    <ion-grid>
+        <ion-row>
+            <ion-col>
+                Team A <br><br>
+                <h1>{{TeamA}}</h1>
+            </ion-col>
+
+            <ion-col>
+                Team B <br><br>
+                <h1>{{TeamB}}</h1>
+
+            </ion-col>
+        </ion-row>
+
+
+
+        <ion-row>
+            <ion-col>
+                <ion-button (click)="onMinusBtFourA()">-4</ion-button>&nbsp;
+                <ion-button (click)="onAddBtFourA()">+4</ion-button>
+                <br>
+                <br>
+                <ion-button (click)="onMinusBtThreeA()">-3</ion-button>&nbsp;
+                <ion-button (click)="onAddBtThreeA()">+3</ion-button>
+                <br>
+                <br>
+                <ion-button (click)="onMinusBtTwoA()">-2</ion-button>&nbsp;
+                <ion-button (click)="onAddBtTwoA()">+2</ion-button>
+                <br>
+                <br>
+                <ion-button (click)="onMinusBtOneA()">-1</ion-button>&nbsp;
+                <ion-button (click)="onAddBtOneA()">+1</ion-button>
+                <br>
+                <br>
+
+            </ion-col>
+
+
+            <ion-col id="b">
+                <ion-button (click)="onMinusBtFourB()">-4</ion-button>&nbsp;
+                <ion-button (click)="onAddBtFourB()">+4</ion-button>
+                <br>
+                <br>
+                <ion-button (click)="onMinusBtThreeB()">-3</ion-button>&nbsp;
+                <ion-button (click)="onAddBtThreeB()">+3</ion-button>
+                <br>
+                <br>
+                <ion-button (click)="onMinusBtTwoB()">-2</ion-button>&nbsp;
+                <ion-button (click)="onAddBtTwoB()">+2</ion-button>
+                <br>
+                <br>
+                <ion-button (click)="onMinusBtOneB()">-1</ion-button>&nbsp;
+                <ion-button (click)="onAddBtOneB()">+1</ion-button>
+                <br>
+                <br>
+            </ion-col>
+        </ion-row>
+
+
+    </ion-grid>
+
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+
+
+    <div class="button">
+        <ion-button (click)="reset()">RESET</ion-button>
+
+    </div>
+
+</ion-content>
